@@ -7,5 +7,18 @@ This `repo` is created for understanding the basic concenpts in `Machine-Learnin
 In simple words Machine means a program which learns.
 Machine Learning is a technique of training machines to perform the activities a human brain can do, albeit bit faster and better than an average human-being.
 
+
+#### Machine learning (Tree structure for understanding)
+
+```graphviz
+digraph hierarchy {
+nodesep=1.0 // increases the separation between nodes
+
+                node [color=Red,shape=box,fontsize=20]
+                edge [color=Blue, style=dashed]
+Machine_Learning->{Supervised_Learning Unsupervise_Learning Semi_Supervise_learning Reinforcement_learning}
+                }
+```
+
 So lets get started :rocket: 
 
